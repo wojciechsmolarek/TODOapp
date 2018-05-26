@@ -42,7 +42,7 @@ header {
            color: #303952;
            text-transform: uppercase;
            border: 1px solid #333;
-           border-radius: 5px; 
+           border-radius: 5px;
            &:hover {
                cursor: pointer;
                color: #14171d;
@@ -72,13 +72,17 @@ header {
                 float: left;
                 margin-bottom: 10px;
             }
-            .far {
-                float: right;
+            button {
+              float: right;
+              border: none;
+              background: transparent;
+              .far {
                 color: #d8154f;
                 &:hover {
-                    color: #303952;
-                    cursor: pointer;
+                  color: #303952;
+                  cursor: pointer;
                 }
+              }
             }
             .task {
                 clear: both;
